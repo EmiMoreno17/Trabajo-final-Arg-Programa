@@ -33,7 +33,7 @@ export const TaskService = {
         {
             method: 'PATCH',
             headers: {
-                "Content-type": "applicatio/json"
+                "Content-type": "application/json"
             },
             body: JSON.stringify({
                 estado: newState
