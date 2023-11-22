@@ -121,7 +121,7 @@ const DetalleTarea = () => {
         {relatedTasks.map((relatedTask) => (
           <div className="col-12 col-md-4 mb-4" key={relatedTask.id}>
             <div className="card">
-              <img src={relatedTask.imagen} alt={relatedTask.titulo} className="card-img-top" />
+              <img src={relatedTask.imagen} alt={relatedTask.imagen} className="card-img-top" />
               <div className="card-body">
                 <h5 className="card-title">{relatedTask.titulo}</h5>
                 <p className="card-text">Tiempo: {relatedTask.tiempo}</p>
