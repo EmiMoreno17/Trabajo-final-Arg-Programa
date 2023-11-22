@@ -1,7 +1,7 @@
 import { Task } from "../types/Task";
 
 
-const BASE_URL="http://localhost:3000/tasks";
+const BASE_URL = 'http://localhost:3000/tasks';
 
 export const TaskService = {
     getAllTasks: async (): Promise<Task[]> => {
@@ -10,7 +10,7 @@ export const TaskService = {
         return data;
     },
 
-    getOneTask: async (id: number): Promise<Task> => {
+    getOneTask: async (id:number): Promise<Task> => {
         const response = await fetch(`${BASE_URL}/${id}`)
         const data = await response.json();
         return data;

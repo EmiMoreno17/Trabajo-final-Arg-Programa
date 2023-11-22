@@ -37,7 +37,7 @@ const ModalAgregarTarea: React.FC<ModalAgregarTareaProps> = ({showModal, handleC
 
         onSubmit: async (values) => {
             values.estado.toUpperCase();
-            console.log('Datos del formulario', JSON.stringify(values));
+            console.log('Datos del formulario', JSON.stringify(values))
 
             await createTask(values);
             handleClose();
@@ -143,10 +143,10 @@ const ModalAgregarTarea: React.FC<ModalAgregarTareaProps> = ({showModal, handleC
 
                             {/*Estado */}
                     <div className="mb-3 mt-1">
-                        <label htmlFor="titulo" className="form-label">Estado</label>
+                        <label htmlFor="estado" className="form-label">Estado</label>
                         <FormSelect
-                         id= "titulo"
-                         name="titulo"
+                         id= "estado"
+                         name="estado"
                          onChange={formik.handleChange}
                          onBlur={formik.handleBlur}
                          value={formik.values.estado}

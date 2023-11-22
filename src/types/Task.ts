@@ -1,3 +1,5 @@
+type Estado = 'PORHACER' | 'PORTESTEAR' | 'ENPRODUCCION' | 'COMPLETADA'
+
 export interface Task {
     id?: number;
     titulo: string;
@@ -5,5 +7,5 @@ export interface Task {
     tiempo: number;
     imagen: string;
     responsable: string;
-    estado: string;
+    estado: Estado;
 }
