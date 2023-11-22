@@ -1,7 +1,7 @@
 import { Task } from "../../types/Task";
 import { useFormik } from "formik";
 import { Modal, Button, Form, FormSelect } from "react-bootstrap";
-import * as Yup from 'Yup';
+import * as Yup from 'yup';
 
 type ModalAgregarTareaProps = {
     showModal: boolean;
