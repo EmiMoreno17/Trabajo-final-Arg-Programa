@@ -152,7 +152,7 @@ const ModalAgregarTarea: React.FC<ModalAgregarTareaProps> = ({showModal, handleC
                          value={formik.values.estado}
                          >
                         <option value="">Selecciona un estado</option>
-                        <option value="POR HACER">Por Hacer</option>
+                        <option value="PORHACER">Por Hacer</option>
                         <option value="ENPRODUCCION">En Produccion</option>
                         <option value="PORTESTEAR">Por Testear</option>
                         <option value="COMPLETADA">Completada</option>
