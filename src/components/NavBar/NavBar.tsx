@@ -53,7 +53,7 @@ const NavBar = () => {
             <Nav.Link onClick={()=> navigate('/')}>Home</Nav.Link>
            
             <NavDropdown title="Tareas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="PORHACER">Por Hacer</NavDropdown.Item>
+              <NavDropdown.Item href="">Por Hacer</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">En Produccion</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Por Testear</NavDropdown.Item>
               <NavDropdown.Divider />
