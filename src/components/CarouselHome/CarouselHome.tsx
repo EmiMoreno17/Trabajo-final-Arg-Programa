@@ -23,10 +23,7 @@ const CarouselHome = () => {
       <Carousel.Item>
         <img className='d block w-100' style={{maxHeight: "500px", objectFit: 'cover'}} src="https://i.pinimg.com/564x/5b/a9/82/5ba9821517a3720c8cef32596f46a062.jpg" alt="img3" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
